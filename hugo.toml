@@ -1,0 +1,31 @@
+baseURL = 'https://jgr0sz.github.io/'
+languageCode = 'en-us'
+title = "jgr0sz"
+theme = 'github.com/binbinsh/hugo-trainsh'
+
+[[menus.main]]
+  name = "Home"
+  url = "/"
+  weight = 10
+
+[[menus.main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 20
+
+[[menus.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 30
+
+[[menus.main]]
+  name = "GitHub"
+  url = "https://github.com/jgr0sz"
+  weight = 40
+
+[params]
+  mainSections = ["blog"]
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
