@@ -5,6 +5,8 @@ draft: false
 tags: ["projects", "go", "backend"]
 ---
 
+[Repository:](https://github.com/jgr0sz/http-serv)
+
 Recently, my focus has been on trying to learn backend development (and Go), since the breadth of my experience is using Cloudflare/Github to host static sites like this one. As a way to try and understand things hands-on, I was inspired by someone to build an HTTP server from scratch as a starting point. 
 
 Despite this project really making me feel at times like I was putting the cart before the horse, I learned a great deal about HTTP, sockets, route handling, and how protocols like TCP function. 
